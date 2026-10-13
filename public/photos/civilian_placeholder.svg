@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B" />
+      <stop offset="60%" stop-color="#0F0F12" />
+      <stop offset="100%" stop-color="#050507" />
+    </linearGradient>
+
+    <linearGradient id="accentRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3339" />
+      <stop offset="100%" stop-color="#E62429" />
+    </linearGradient>
+
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#27272A" stroke-width="1" />
+    </pattern>
+
+    <pattern id="dotPattern" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="1.5" fill="#E62429" opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#cardBg)" />
+  <rect width="800" height="1000" fill="url(#gridPattern)" />
+  <rect width="800" height="1000" fill="url(#dotPattern)" />
+
+  <!-- Outer Comic Inset Border -->
+  <rect x="24" y="24" width="752" height="952" fill="none" stroke="#E62429" stroke-width="3" />
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#000000" stroke-width="6" />
+
+  <!-- Top Dossier Header -->
+  <g transform="translate(60, 70)">
+    <rect x="0" y="0" width="220" height="32" fill="#E62429" stroke="#000000" stroke-width="3" transform="skewX(-12)" />
+    <text x="16" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="900" fill="#FFFFFF" letter-spacing="2">CIVILIAN IDENTITY</text>
+    <text x="240" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#A1A1AA" letter-spacing="3">// DOSSIER RECORD</text>
+  </g>
+
+  <!-- Center Portrait Frame / Silhouette -->
+  <g transform="translate(400, 410)">
+    <!-- Circular Halo Backdrop -->
+    <circle cx="0" cy="0" r="190" fill="#18181B" stroke="#E62429" stroke-width="4" stroke-dasharray="12 6" />
+    <circle cx="0" cy="0" r="170" fill="#09090B" stroke="#27272A" stroke-width="3" />
+    
+    <!-- Stylized Developer Silhouette -->
+    <!-- Torso -->
+    <path d="M -120 170 C -120 90 -70 65 0 65 C 70 65 120 90 120 170 Z" fill="#27272A" stroke="#000000" stroke-width="4" />
+    <path d="M -25 65 L 0 100 L 25 65 Z" fill="#E62429" />
+    <!-- Neck -->
+    <rect x="-20" y="25" width="40" height="45" fill="#3F3F46" />
+    <!-- Head -->
+    <circle cx="0" cy="0" r="58" fill="#52525B" stroke="#000000" stroke-width="4" />
+    <!-- Hair -->
+    <path d="M -58 -10 C -58 -65 -25 -70 0 -70 C 40 -70 58 -50 58 -10 C 45 -25 25 -25 0 -25 C -25 -25 -45 -20 -58 -10 Z" fill="#18181B" />
+    <!-- Developer Glasses Silhouette -->
+    <rect x="-35" y="-12" width="28" height="20" rx="4" fill="#FFFFFF" opacity="0.9" stroke="#000000" stroke-width="3" />
+    <rect x="7" y="-12" width="28" height="20" rx="4" fill="#FFFFFF" opacity="0.9" stroke="#000000" stroke-width="3" />
+    <line x1="-7" y1="-3" x2="7" y2="-3" stroke="#000000" stroke-width="3" />
+
+    <!-- Plus / Upload Icon on Silhouette -->
+    <circle cx="0" cy="120" r="28" fill="#E62429" stroke="#FFFFFF" stroke-width="3" />
+    <line x1="0" y1="106" x2="0" y2="134" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+    <line x1="-14" y1="120" x2="14" y2="120" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Developer Name & Status Block -->
+  <g transform="translate(400, 670)" text-anchor="middle">
+    <text y="0" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" letter-spacing="3">ROHAN PRABHASH</text>
+    <text y="36" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#E62429" letter-spacing="4">B.TECH CSE (AI &amp; ML) // 3RD YEAR</text>
+    <text y="64" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#A1A1AA" letter-spacing="2">AI/ML STUDENT · DEVELOPER · BUILDER</text>
+  </g>
+
+  <!-- Action Callout Box -->
+  <g transform="translate(80, 780)">
+    <rect x="0" y="0" width="640" height="120" fill="#FFFFFF" stroke="#000000" stroke-width="4" rx="4" />
+    <!-- Inner Accent -->
+    <rect x="0" y="0" width="14" height="120" fill="#E62429" />
+    <text x="34" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#000000" letter-spacing="1">REAL FACE PHOTO READY TO LINK</text>
+    <text x="34" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#52525B">
+      Click "CUSTOMIZE FACE" above to upload your portrait photo,
+    </text>
+    <text x="34" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#71717A">
+      or drop your image at public/photos/portrait.jpg to complete the reveal.
+    </text>
+    <rect x="500" y="24" width="120" height="72" fill="#F4F4F5" stroke="#000000" stroke-width="2" rx="2" />
+    <text x="560" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#E62429" text-anchor="middle">REAL FACE</text>
+    <text x="560" y="75" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#71717A" text-anchor="middle">PLACEHOLDER</text>
+  </g>
+
+  <!-- Authentic Identity Protection Notice -->
+  <g transform="translate(400, 935)" text-anchor="middle">
+    <text font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#71717A" letter-spacing="1">
+      AUTHENTIC IDENTITY PRESERVED — USER PORTRAIT NEVER FABRICATED
+    </text>
+  </g>
+</svg>

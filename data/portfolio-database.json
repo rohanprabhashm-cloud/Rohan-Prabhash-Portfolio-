@@ -1,0 +1,301 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-10-12T17:35:00.000Z",
+  "author": "Rohan Prabhash",
+  "profile": {
+    "name": "ROHAN PRABHASH",
+    "headline": "Building Intelligent Experiences.",
+    "supportingText": "AI/ML enthusiast, developer, and builder turning ideas into practical digital products.",
+    "avatarUrl": "",
+    "availability": "Open to Opportunities",
+    "isAvailableForHire": true,
+    "email": "rohanprabhashm@gmail.com",
+    "phone": "",
+    "github": "https://github.com/rohanprabhash",
+    "linkedin": "https://linkedin.com/in/rohanprabhash",
+    "twitter": "https://x.com/rohanprabhash",
+    "socialLinks": [
+      { "platform": "GitHub", "label": "GitHub", "url": "https://github.com/rohanprabhash" },
+      { "platform": "LinkedIn", "label": "LinkedIn", "url": "https://linkedin.com/in/rohanprabhash" },
+      { "platform": "Twitter", "label": "X / Twitter", "url": "https://x.com/rohanprabhash" },
+      { "platform": "Email", "label": "Email", "url": "mailto:rohanprabhashm@gmail.com" }
+    ],
+    "resumeUrl": "https://rohanprabhash.dev/resume.pdf",
+    "location": "India",
+    "bioShort": "B.Tech CSE (AI & ML) student focused on architecting intelligent, end-to-end applications that bridge foundational algorithms and clean, responsive software engineering.",
+    "bioLong": [
+      "I am an engineering undergraduate specializing in Artificial Intelligence and Machine Learning. My engineering journey revolves around turning theoretical models into practical, responsive, and reliable software that solves tangible everyday problems.",
+      "From multi-order route coordination in OYEE to conversational desktop intelligence in Oye AI Assistant and agentic travel planning in RoamAgent, I explore algorithmic problem solving, modern web applications, and agentic workflows."
+    ],
+    "education": {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "specialization": "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+      "year": "Undergraduate",
+      "institution": "B.Tech Engineering College",
+      "graduationYear": "2026",
+      "cgpaOrGrade": "",
+      "keyCourses": [
+        "Artificial Intelligence & Machine Learning",
+        "Data Structures & Algorithms",
+        "Operating Systems & Architecture",
+        "Database Management Systems (DBMS)"
+      ],
+      "highlights": [
+        "Coursework in machine learning and data structures",
+        "Hands-on project work in route optimization and agentic AI systems"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": "oyee",
+      "title": "OYEE",
+      "tagline": "Multi-order food delivery platform with route optimization and safety tracking",
+      "shortDescription": "A multi-order food delivery platform designed to optimize delivery routes, coordinate orders, support customer tracking, and improve delivery safety.",
+      "description": "A multi-order food delivery platform designed to optimize delivery routes, coordinate orders, support customer tracking, and improve delivery safety.",
+      "fullDescription": "A multi-order food delivery platform designed to optimize delivery routes, coordinate orders, support customer tracking, and improve delivery safety.",
+      "problemStatement": "",
+      "proposedSolution": "",
+      "features": [
+        "Route optimization across multi-order batches",
+        "Order coordination and dispatch management",
+        "Real-time customer delivery tracking",
+        "Delivery safety and checkpoint protocols"
+      ],
+      "tags": ["Web Development", "Route Optimization", "Delivery Logistics"],
+      "technologies": ["Web Development", "Route Optimization", "Delivery Logistics"],
+      "roleAndContributions": "",
+      "category": "web_dev",
+      "status": "In Development",
+      "statusLabel": "In Development",
+      "startDate": "",
+      "completionDate": "",
+      "githubUrl": "",
+      "demoUrl": "",
+      "demoVideoUrl": "",
+      "relatedHackathon": "",
+      "simulationType": "oyee",
+      "isGithubPlaceholder": true,
+      "isDemoPlaceholder": true,
+      "isPublished": false,
+      "order": 1
+    },
+    {
+      "id": "oye-ai-assistant",
+      "title": "Oye AI Assistant",
+      "tagline": "Personal AI assistant concept with voice input/output and desktop assistance",
+      "shortDescription": "A personal AI assistant concept focused on conversational interaction, voice input and output, and useful desktop assistance.",
+      "description": "A personal AI assistant concept focused on conversational interaction, voice input and output, and useful desktop assistance.",
+      "fullDescription": "A personal AI assistant concept focused on conversational interaction, voice input and output, and useful desktop assistance.",
+      "problemStatement": "",
+      "proposedSolution": "",
+      "features": [
+        "Conversational interaction and natural dialogue",
+        "Voice input and speech output capabilities",
+        "Useful desktop workflow and system assistance"
+      ],
+      "tags": ["AI Assistant", "Conversational AI", "Voice Interaction", "Desktop Assistant"],
+      "technologies": ["AI Assistant", "Conversational AI", "Voice Interaction", "Desktop Assistant"],
+      "roleAndContributions": "",
+      "category": "ai_agents",
+      "status": "In Development",
+      "statusLabel": "In Development",
+      "startDate": "",
+      "completionDate": "",
+      "githubUrl": "",
+      "demoUrl": "",
+      "demoVideoUrl": "",
+      "relatedHackathon": "",
+      "simulationType": "oye_assistant",
+      "isGithubPlaceholder": true,
+      "isDemoPlaceholder": true,
+      "isPublished": false,
+      "order": 2
+    },
+    {
+      "id": "roam-agent",
+      "title": "RoamAgent — Agentic AI Travel Concierge",
+      "tagline": "AI-powered travel planning concept for itineraries, budgets, and adaptive travel",
+      "shortDescription": "An AI-powered travel planning concept designed to personalize itineraries, manage budgets, suggest transport and accommodation options, and adapt plans to changing conditions.",
+      "description": "An AI-powered travel planning concept designed to personalize itineraries, manage budgets, suggest transport and accommodation options, and adapt plans to changing conditions.",
+      "fullDescription": "An AI-powered travel planning concept designed to personalize itineraries, manage budgets, suggest transport and accommodation options, and adapt plans to changing conditions.",
+      "problemStatement": "",
+      "proposedSolution": "",
+      "features": [
+        "Personalized multi-day itinerary generation",
+        "Dynamic travel budget management",
+        "Transport and accommodation option suggestions",
+        "Adaptive replanning responsive to changing conditions"
+      ],
+      "tags": ["AI Agents", "Travel Technology", "Itinerary Planner", "Autonomous Agents"],
+      "technologies": ["AI Agents", "Travel Technology", "Itinerary Planner", "Autonomous Agents"],
+      "roleAndContributions": "",
+      "category": "ai_agents",
+      "status": "Hackathon Project",
+      "statusLabel": "Hackathon Project",
+      "startDate": "",
+      "completionDate": "",
+      "githubUrl": "",
+      "demoUrl": "",
+      "demoVideoUrl": "",
+      "relatedHackathon": "Samartha Hackathon",
+      "simulationType": "roam_agent",
+      "isGithubPlaceholder": true,
+      "isDemoPlaceholder": true,
+      "isPublished": false,
+      "order": 3
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "hack-samartha",
+      "title": "Samartha Hackathon",
+      "hackathonName": "Samartha Hackathon",
+      "event": "TBS / Samartha",
+      "organizer": "TBS / Samartha",
+      "date": "",
+      "eventDate": "",
+      "location": "",
+      "problemStatement": "TBS RoamAgent Challenge",
+      "projectSubmitted": "RoamAgent — Agentic AI Travel Concierge",
+      "teamName": "",
+      "teamMembers": [],
+      "myRoleAndContribution": "",
+      "technologies": ["AI Agents", "Travel Technology"],
+      "tags": ["AI Agents", "Travel Technology", "TBS Challenge"],
+      "result": "Editable Draft (Submitted / Participating pending confirmation)",
+      "resultStatus": "Draft",
+      "awardTitle": "",
+      "description": "Development and presentation of an agentic AI travel concierge concept.",
+      "certificateUrl": "",
+      "pitchDeckUrl": "",
+      "demoVideoUrl": "",
+      "projectRepoUrl": "",
+      "eventPhotos": [],
+      "notesAndLearnings": "",
+      "isVerified": false,
+      "isPublished": false,
+      "order": 1
+    },
+    {
+      "id": "hack-sih-prep",
+      "title": "Smart India Hackathon research and preparation",
+      "hackathonName": "Smart India Hackathon research and preparation",
+      "event": "Smart India Hackathon Research",
+      "organizer": "Smart India Hackathon Research",
+      "date": "",
+      "eventDate": "",
+      "location": "",
+      "problemStatement": "Research into potential problem statements, including legal metrology label compliance and autonomous vehicle path planning.",
+      "projectSubmitted": "",
+      "teamName": "",
+      "teamMembers": [],
+      "myRoleAndContribution": "Problem statement investigation, legal metrology compliance review, and vehicle path planning algorithms research.",
+      "technologies": ["Path Planning", "Computer Vision", "Compliance Algorithms"],
+      "tags": ["Problem Research", "Legal Metrology", "Vehicle Path Planning", "Preparation"],
+      "result": "Research / Preparation",
+      "resultStatus": "Research / Preparation",
+      "awardTitle": "",
+      "description": "Research into potential problem statements, including legal metrology label compliance and autonomous vehicle path planning. Not an official participation or submission.",
+      "certificateUrl": "",
+      "pitchDeckUrl": "",
+      "demoVideoUrl": "",
+      "projectRepoUrl": "",
+      "eventPhotos": [],
+      "notesAndLearnings": "Explored legal metrology packaged commodities rule compliance verification and graph-based heuristic path planning for autonomous navigation.",
+      "isVerified": false,
+      "isPublished": false,
+      "order": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": "p1",
+      "name": "Python",
+      "category": "programming",
+      "status": "verified",
+      "proficiency": 90,
+      "note": "Primary language for AI/ML pipelines, algorithmic development, and backend APIs"
+    },
+    {
+      "id": "p2",
+      "name": "C",
+      "category": "programming",
+      "status": "verified",
+      "proficiency": 85,
+      "note": "Data structures, pointer arithmetic, and system-level fundamentals"
+    },
+    {
+      "id": "p3",
+      "name": "JavaScript / TypeScript",
+      "category": "programming",
+      "status": "verified",
+      "proficiency": 82,
+      "note": "Modern web development and component engineering"
+    },
+    {
+      "id": "p4",
+      "name": "SQL",
+      "category": "programming",
+      "status": "verified",
+      "proficiency": 80,
+      "note": "Relational database querying and schema design"
+    },
+    {
+      "id": "ai1",
+      "name": "AI & Machine Learning Foundations",
+      "category": "aiml",
+      "status": "verified",
+      "proficiency": 88,
+      "note": "Supervised and unsupervised learning, model evaluation"
+    },
+    {
+      "id": "ai4",
+      "name": "Agentic AI & Prompt Engineering",
+      "category": "aiml",
+      "status": "verified",
+      "proficiency": 84,
+      "note": "Multi-step tool calling, structured JSON output generation"
+    },
+    {
+      "id": "w1",
+      "name": "Web Development (Full-Stack)",
+      "category": "web",
+      "status": "verified",
+      "proficiency": 88,
+      "note": "Designing responsive web applications"
+    },
+    {
+      "id": "t1",
+      "name": "Git & Version Control",
+      "category": "tools",
+      "status": "verified",
+      "proficiency": 88,
+      "note": "Collaborative workflows and version tracking"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "Undergraduate AI/ML Student Researcher",
+      "company": "Department Computing & Systems Lab",
+      "location": "Campus Lab",
+      "period": "Undergraduate Studies",
+      "type": "research",
+      "description": "Investigating algorithmic optimization in path planning and multi-agent coordination frameworks.",
+      "technologies": ["Python", "Path Optimization", "Agentic Systems"],
+      "link": ""
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "Machine Learning & Deep Learning Foundations",
+      "issuer": "Technical Track",
+      "issueDate": "2024",
+      "credentialUrl": "",
+      "credentialId": "",
+      "skills": ["Neural Networks", "Supervised Learning", "Model Evaluation"]
+    }
+  ]
+}
